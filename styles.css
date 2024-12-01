@@ -1,0 +1,21 @@
+
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+	width: 100%;
+	display: flex;
+	margin: 50px;
+}
+
+@font-face {
+	font-family: "Spectral ExtraLightItalic";
+	src: url('../typos/Spectral-ExtraLightItalic.otf');
+	font-style: normal;
+}
+.spectral {
+    font-family: Spectral;
+}
