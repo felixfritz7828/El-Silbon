@@ -13,7 +13,7 @@ html {
 
 @font-face {
 	font-family: 'Spectral';
-	src: url('../typos/Spectral-Light.otf');
+	src: url('../typos/Spectral-ExtraLight.otf');
 	font-style: normal;
 }
 .spectral {
@@ -21,12 +21,12 @@ html {
 }
 
 @font-face {
-	font-family: 'Chivo';
-	src: url('../typos/Spectral-Light.otf');
+	font-family: 'Chivo Mono';
+	src: url('../typos/ChivoMono-LightItalic.ttf');
 	font-style: normal;
 }
-.spectral {
-    font-family: 'Spectral';
+.chivo {
+    font-family: 'Chivo Mono';
 }
 h1 {
 	grid-template-columns: 1fr;
