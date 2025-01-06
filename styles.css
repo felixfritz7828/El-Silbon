@@ -55,16 +55,15 @@ html {
 }
 
 h1 {
-	grid-template-columns: 1fr;
-	font-size: calc(1.7rem + 2.5vw);
+	font-size: calc(1.5rem + 2.2vw);
 	color: white;
-	text-shadow: -2px 2px 1px lightslategray;
+	text-shadow: -1.5px 1.5px 0.5px lightslategray;
 }
 
 h2 {
-	font-size: calc(1.3rem + 2.2vw);
+	font-size: calc(1.2rem + 1.8vw);
 	color: white;
-	text-shadow: -2px 2px 1px lightslategray;
+	text-shadow: -1.5px 1.5px 0.5px lightslategray;
 }
 
 h3 {
