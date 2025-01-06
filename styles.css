@@ -30,20 +30,24 @@ html {
 }
 h1 {
 	grid-template-columns: 1fr;
-	font-family: 'Spectral';
 	font-size: calc(2rem + 3vw);
 	color: white;
 	text-shadow: -2px 2px 0px grey;
 }
 
 h2 {
+	font-size: calc(1.5rem + 2rem);
+	align-items: right;
+}
+
+h2 {
 	font-family: 'Spectral';
 	font-size: calc(0.4rem + 0.8rem);
-	flex-basis: calc(50%);
+	align-items: flex-end;
 }
 p {
 	font-family: 'Spectral';
-	font-size: calc(0.4rem + 0.5vw);
+	font-size: calc(0.6rem + 0.8vw);
 	padding-top: 15px;
 	padding-left: 8px;
 	padding-right: 8px;
