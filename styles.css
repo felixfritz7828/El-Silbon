@@ -4,13 +4,41 @@
 }
 
 html {
+	background-color: seashell;
 	scroll-behavior: smooth;
-	width: 50%;
-	display: flex;
+	width: 100%;
 	margin-left: 30px;
 	margin-top: 15px;
 }
 
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+.box1 {
+	align-content: flex-start;
+}
+.box2 {
+	align-items: flex-end;
+}
+.box3 {
+	align-items: flex-start;
+}
+.box4 {
+	align-items: flex-start;
+}
+.grow1 {
+	flex-grow: 2;
+}
+.grow2 {
+	flex-grow: 1;
+}
+.grow3 {
+	flex-grow: 2;
+}
+.grow4 {
+	flex-grow: 1;
+}
 @font-face {
 	font-family: 'Spectral';
 	src: url('../typos/Spectral-ExtraLight.otf');
@@ -28,26 +56,40 @@ html {
 .chivo {
     font-family: 'Chivo Mono';
 }
+
+@font-face {
+	font-family: 'Spectral_Italic';
+	src: url('../typos/Spectral-ExtraLightItalic.otf');
+	font-style: normal;
+}
+.spectral_italic{
+    font-family: 'Spectral_Italic';
+}
+
 h1 {
 	grid-template-columns: 1fr;
-	font-size: calc(2rem + 3vw);
-	color: white;
-	text-shadow: -2px 2px 0px grey;
+	font-size: calc(1.7rem + 2.5vw);
+	color: seashell;
+	text-shadow: -2px 2px 0px lightslategray;
 }
 
 h2 {
-	font-size: calc(1.5rem + 2rem);
-	align-items: right;
+	text-align: left;
+	text-align: justify;
+	font-size: calc(1.3rem + 2.2vw);
+	color: seashell;
+	text-shadow: -2px 2px 0px lightslategray;
 }
 
-h2 {
-	font-family: 'Spectral';
-	font-size: calc(0.4rem + 0.8rem);
+h3 {
+	font-family: 'Spectral_Italic';
+	font-size: calc(0.8rem + 0.1vw);
 	align-items: flex-end;
 }
 p {
 	font-family: 'Spectral';
 	font-size: calc(0.6rem + 0.8vw);
+	width: 50%;
 	padding-top: 15px;
 	padding-left: 8px;
 	padding-right: 8px;
