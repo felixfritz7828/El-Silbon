@@ -58,13 +58,13 @@ h1 {
 	grid-template-columns: 1fr;
 	font-size: calc(1.7rem + 2.5vw);
 	color: white;
-	text-shadow: -2px 2px 0px lightslategray;
+	text-shadow: -2px 2px 1px lightslategray;
 }
 
 h2 {
 	font-size: calc(1.3rem + 2.2vw);
 	color: white;
-	text-shadow: -2px 2px 0px lightslategray;
+	text-shadow: -2px 2px 1px lightslategray;
 }
 
 h3 {
