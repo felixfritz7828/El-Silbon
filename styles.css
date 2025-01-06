@@ -19,6 +19,15 @@ html {
 .spectral {
     font-family: 'Spectral';
 }
+
+@font-face {
+	font-family: 'Chivo';
+	src: url('../typos/Spectral-Light.otf');
+	font-style: normal;
+}
+.spectral {
+    font-family: 'Spectral';
+}
 h1 {
 	grid-template-columns: 1fr;
 	font-family: 'Spectral';
