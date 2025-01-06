@@ -4,16 +4,15 @@
 }
 
 html {
-	background-color: seashell;
+	background-color: white;
 	scroll-behavior: smooth;
 	width: 100%;
 	margin-left: 30px;
 	margin-top: 15px;
 }
-
 .container {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 }
 .box1 {
 	align-content: start;
@@ -58,13 +57,13 @@ html {
 h1 {
 	grid-template-columns: 1fr;
 	font-size: calc(1.7rem + 2.5vw);
-	color: seashell;
+	color: white;
 	text-shadow: -2px 2px 0px lightslategray;
 }
 
 h2 {
 	font-size: calc(1.3rem + 2.2vw);
-	color: seashell;
+	color: white;
 	text-shadow: -2px 2px 0px lightslategray;
 }
 
